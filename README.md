@@ -2,7 +2,7 @@
 
 These are my dotfiles. There are many like them, but these are mine.
 
-Credit to mathiasbynens/dotfiles and holman/dotfiles for many snippets here, and inspiring the layout.
+Credit to [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) and [holman/dotfiles](https://github.com/holman/dotfiles) for many snippets here, and inspiring the layout.
 
 The repo is structured as follows:
 
