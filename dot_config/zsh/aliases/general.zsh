@@ -24,6 +24,11 @@ alias paths="echo -e ${PATH//:/\\n}" # print each $PATH entry as a new line
 alias now='date +"%T"'
 alias nowtime=now
 alias nowdate='date +"%d-%m-%Y"'
+alias router="open $(echo "http://$(netstat -nr | grep default | awk '/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/ {print $2}')")"
+alias cpy='pbcopy'
+alias mkcd="_(){ mkdir -p $1; cd $1; }; _"
+alias ff='find . -name $1'  # fast find
+alias most='du -hsx * | sort -rh | head -10'
 
 # tools
 alias t='task'

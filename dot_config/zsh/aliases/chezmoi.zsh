@@ -2,5 +2,6 @@
 
 alias cm='chezmoi'
 alias cma='chezmoi add'
+alias cmra='chezmoi re-add'
 alias cms='chezmoi status'
 alias cmrm='chezmoi remove'
