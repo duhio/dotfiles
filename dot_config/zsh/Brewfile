@@ -1,0 +1,104 @@
+# Bare minimum - let brew handle deps
+
+# taps
+tap "cloudflare/cloudflare"
+tap "dopplerhq/cli"
+tap "fluxcd/tap"
+tap "hashicorp/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/services"
+tap "weaveworks/tap"
+
+# tools
+brew "age"
+brew "ansible", link: false
+brew "awscli"
+brew "b2-tools"
+brew "bitwarden-cli"
+brew "chezmoi"
+brew "cookiecutter"
+brew "coreutils"
+brew "direnv"
+brew "git"
+brew "go-task"
+brew "imagemagick"
+brew "jq"
+brew "lftp"
+brew "rclone"
+brew "renovate"
+brew "rsync"
+brew "sops"
+brew "tor", restart_service: true
+brew "yamlfmt"
+brew "yamllint"
+brew "yq"
+
+# kubernetes
+brew "helm"
+brew "k9s"
+brew "krew"
+brew "kubeconform"
+brew "kubectx"
+brew "kustomize"
+brew "fluxcd/tap/flux"
+
+# terraform
+brew "hashicorp/tap/terraform"
+brew "terragrunt"
+
+# shell
+brew "starship"
+brew "zsh"
+brew "zsh-autosuggestions"
+brew "thefuck"
+
+# tap apps
+brew "dopplerhq/cli/doppler"
+
+# Casks (UI apps)
+cask "adobe-creative-cloud"
+cask "android-file-transfer"
+cask "bartender"
+cask "caffeine"
+cask "discord"
+cask "disk-diet"
+cask "disk-inventory-x"
+cask "dropbox"
+cask "firefox"
+cask "font-fira-code-nerd-font"
+cask "foxitreader"
+cask "gimp"
+cask "google-chrome"  # sometimes needed unfortunately
+cask "iterm2"
+cask "logitech-options"
+cask "minecraft"
+cask "nvidia-geforce-now"
+cask "oracle-jdk"
+cask "protonvpn"
+cask "qflipper"
+cask "rar"
+cask "rectangle"
+cask "signal"
+cask "spotify"
+cask "steam"
+cask "visual-studio-code"
+cask "vlc"
+cask "whatsapp"
+cask "zoom"
+
+# Brew has support for vscode apparently
+vscode "4ops.terraform"
+vscode "DavidAnson.vscode-markdownlint"
+vscode "EditorConfig.EditorConfig"
+vscode "hashicorp.terraform"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-vscode.live-server"
+vscode "redhat.ansible"
+vscode "redhat.vscode-yaml"
+vscode "weaveworks.vscode-gitops-tools"
