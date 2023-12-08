@@ -21,6 +21,9 @@ alias pubkey="more ~/.ssh/id_ed25519.pub | pbcopy | echo '=> Public key copied t
 alias dns-flush='sudo killall -HUP mDNSResponder'
 alias ip="curl -s ipinfo.io | jq -r '.ip'" # what's my IP address?
 alias paths="echo -e ${PATH//:/\\n}" # print each $PATH entry as a new line
+alias now='date +"%T"'
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'
 
 # tools
 alias t='task'
